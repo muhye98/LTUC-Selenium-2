@@ -16,7 +16,7 @@ public class Login_Test_Cases extends Parameters {
 	
 	@Test ()
 	
-	public void CreatOneContact() {
+	public void LogInProsses() {
 		
 		driver.findElement(By.id("email")).sendKeys(Email);
 		driver.findElement(By.id("pass")).sendKeys(FinalPassoward);
